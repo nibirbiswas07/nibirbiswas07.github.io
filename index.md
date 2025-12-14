@@ -15,9 +15,22 @@ layout: default
       <a href="#industry-works" class="btn">Explore my works →</a>
     </div>
 
-    <div class="hero-img">
-      <img src="{{ '/assets/images/image.jpg' | relative_url }}" alt="Profile">
-    </div>
+<div class="hero-img">
+  <img src="{{ '/assets/images/image.jpg' | relative_url }}" alt="Profile">
+
+  <div class="float-tag tag-content">
+    Content Writer
+  </div>
+
+  <div class="float-tag tag-copy">
+    Copywriter
+  </div>
+
+  <div class="float-tag tag-social">
+    Social Media Strategist
+  </div>
+</div>
+
   </div>
 
   <!-- WORKED WITH (SEPARATE ROW, NO COLLISION) -->
