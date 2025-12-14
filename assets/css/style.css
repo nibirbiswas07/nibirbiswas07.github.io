@@ -8,6 +8,7 @@
 body {
   background: #f6f8fb;
   color: #222;
+  overflow-x: hidden; /* safety against overflow */
 }
 
 /* NAVBAR */
@@ -39,8 +40,8 @@ body {
 .hero {
   min-height: calc(100vh - 80px);
   display: flex;
-  flex-direction: column;               /* KEY FIX */
-  justify-content: space-between;       /* KEY FIX */
+  flex-direction: column;
+  justify-content: space-between;
   padding: 40px 60px 30px;
   position: relative;
 
@@ -53,13 +54,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 80px;
+  gap: 80px; /* replaces layout transforms */
 }
 
 /* TEXT */
 .hero-text {
   max-width: 500px;
-  transform: translateX(100px);
+  /* ❌ removed transform */
 }
 
 .hero-text h1 {
@@ -82,8 +83,7 @@ body {
 
 /* IMAGE */
 .hero-img {
-  transform: translate(-200px, 30px);
-
+  margin-top: 30px; /* ✅ replaces transform */
 }
 
 .hero-img img {
@@ -95,8 +95,8 @@ body {
 
 /* WORKED WITH */
 .worked-with {
-  margin-top: 40px; 
-  padding-left: 80px;   
+  margin-top: 40px;
+  padding-left: 80px; /* desktop offset stays */
 }
 
 .worked-title {
@@ -212,19 +212,21 @@ body {
   .hero-content {
     flex-direction: column;
     text-align: center;
-  }
-
-  .hero-text,
-  .hero-img {
-    transform: none;
-  }
-
-  .worked-with{
-    transform: none;
+    gap: 40px;
   }
 
   .hero-img {
     margin-top: 40px;
+  }
+
+  /* ✅ FIXED CENTERING */
+  .worked-with {
+    padding-left: 0;        /* 🔑 reset desktop offset */
+    text-align: center;
+  }
+
+  .company-logos {
+    justify-content: center; /* 🔑 center logos */
   }
 
   .project-card,
