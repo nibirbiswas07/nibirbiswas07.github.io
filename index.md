@@ -7,13 +7,12 @@ layout: default
   <!-- MAIN HERO CONTENT (TEXT + IMAGE) -->
   <div class="hero-content">
     <div class="hero-text">
-      <h1>Your Name Here</h1>
+      <h1>NIBIR BISWAS</h1>
       <p>
-        Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        I create brand aligned content that turns attention into action.
       </p>
 
-      <a href="#projects" class="btn">Let's get started →</a>
+      <a href="#projects" class="btn">Explore my works →</a>
     </div>
 
     <div class="hero-img">
@@ -50,12 +49,12 @@ layout: default
 
 </section>
 
-<section class="projects" id="projects">
-  <h2>Projects</h2>
+<section class="projects" id="content-writing">
+  <h2>Industry Works</h2>
 
   <div class="project-card">
-    <div class="project-text">
-      <h3>Project Name</h3>
+    <div class="project-text" id="content-writing">
+      <h3>CONTENT WRITING</h3>
       <p>
         I created this personal project to show how to create an interface
         in Figma using a portfolio as an example.
@@ -67,8 +66,8 @@ layout: default
 
   <div class="project-card reverse">
     <img src="{{ '/assets/images/image.jpg' | relative_url }}">
-    <div class="project-text">
-      <h3>Project Name</h3>
+    <div class="project-text" id="copy-writing">
+      <h3>COPYWRITING</h3>
       <p>
         What was your role, your deliverables, if the project was personal
         or freelancing.
@@ -78,8 +77,8 @@ layout: default
   </div>
 
   <div class="project-card">
-    <div class="project-text">
-      <h3>Project Name</h3>
+    <div class="project-text" id="socialmedia-strategy">
+      <h3>SOCIAL MEDIA STRATEGY</h3>
       <p>
         You can also add in this description the type of the project.
       </p>
