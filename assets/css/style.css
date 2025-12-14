@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
 }
+
 
 body {
   background: #f6f8fb;
@@ -19,6 +20,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar nav a {
@@ -36,16 +40,23 @@ body {
   cursor: pointer;
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
 /* HERO */
 .hero {
-  min-height: calc(100vh - 80px);
+  /* min-height: calc(100vh - 60px); */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 40px 60px 30px;
   position: relative;
 
-  background: radial-gradient(circle at right, #222, #000);
+  background: linear-gradient(to bottom, #2b2b2b, #181818);
   color: white;
 }
 
@@ -53,8 +64,8 @@ body {
 .hero-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 80px; /* replaces layout transforms */
+  justify-content: center;
+  gap: clamp(60px, 10vw, 120px); /* replaces layout transforms */
 }
 
 /* TEXT */
@@ -95,8 +106,10 @@ body {
 
 /* WORKED WITH */
 .worked-with {
-  margin-top: 40px;
-  padding-left: 80px; /* desktop offset stays */
+  margin-top: 80px;
+  align-self: center;
+  max-width: 1100px;
+  width: 100%;
 }
 
 .worked-title {
@@ -114,28 +127,111 @@ body {
 }
 
 .company-box {
-  height: 60px;
-  min-width: 200px;
-  padding: 8px 14px;
-  border-radius: 8px;
+  height: 64px;
+  min-width: 190px;
+  padding: 10px 18px;
+  border-radius: 12px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(6px);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.08),
+    rgba(255, 255, 255, 0.02)
+  );
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+
+  transition: 
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease;
+
+  text-decoration: none;
 }
 
+
 .company-box img {
-  max-height: 22px;
-  max-width: 80px;
+  max-height: 28px;
+  max-width: 120px;
   object-fit: contain;
-  opacity: 0.85;
+  opacity: 1; /* 🔥 full clarity */
+  filter: grayscale(0%);
+}
+
+/* Hover effect */
+.company-box:hover {
+  transform: translateY(-4px);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.14),
+    rgba(255, 255, 255, 0.04)
+  );
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.company-box--square img {
+  max-height: 40px;   /* bigger than others */
+  max-width: 50px;
+}
+
+
+.telenor-logo img {
+  max-height: 40px;          /* slightly larger */
+  transform: scale(2.5); 
+  filter: brightness(1.2) contrast(1.1);
+}
+
+.mi-logo img{
+  max-height: 40px;          
+  transform: scale(2.8); 
+  filter: brightness(1.2) contrast(1.1);
+}
+
+.anker-logo img{         
+  transform: scale(0.8); 
+  filter: brightness(1.2) contrast(1.1);
 }
 
 /* PROJECTS */
+.scroll-target {
+  scroll-margin-top: 80px;
+}
+#industry-title {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 600;
+
+  position: relative;          /* REQUIRED */
+  display: block;
+  width: fit-content;          /* shrink to text */
+  margin: 0 auto 60px;         /* center only this */
+  color: #111;
+}
+
+#industry-title::after {
+  content: "";
+  position: absolute;
+
+  left: 12%;
+  right: 12%;
+  bottom: -12px;
+
+  height: 6px;
+  border-radius: 4px;
+  
+  /* background: #f5c400; */
+  background: linear-gradient(
+    90deg,
+    #f5c400,
+    #ffd84d
+  );
+}
+
+
 .projects {
   padding: 80px 60px;
 }
@@ -168,6 +264,7 @@ body {
 }
 
 .project-text h3 {
+  font-family: "Playfair Display", serif;
   font-size: 28px;
   margin-bottom: 20px;
 }
@@ -189,11 +286,17 @@ body {
   flex-direction: row-reverse;
 }
 
+
 /* FOOTER */
 .footer {
-  background: #fff;
+ background: linear-gradient(to bottom, #2b2b2b, #181818);
+  color: white;
   text-align: center;
   padding: 60px 20px;
+}
+.footer a {
+  color: #f5c400;
+  letter-spacing: 0.3px;
 }
 
 .footer span {
@@ -204,6 +307,41 @@ body {
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
+
+  .navbar {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+    color: white;
+  }
+
+  nav {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  nav a {
+    padding: 12px 0;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .socials {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
   .hero {
     min-height: auto;
     padding-bottom: 60px;
@@ -227,6 +365,10 @@ body {
 
   .company-logos {
     justify-content: center; /* 🔑 center logos */
+  }
+
+  .scroll-target {
+    scroll-margin-top: 330px;
   }
 
   .project-card,
