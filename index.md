@@ -3,18 +3,51 @@ layout: default
 ---
 
 <section class="hero" id="home">
-  <div class="hero-text">
-    <h1>Your Name Here</h1>
-    <p>
-      Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    </p>
-    <a href="#projects" class="btn">Let's get started →</a>
+
+  <!-- MAIN HERO CONTENT (TEXT + IMAGE) -->
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Your Name Here</h1>
+      <p>
+        Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+
+      <a href="#projects" class="btn">Let's get started →</a>
+    </div>
+
+    <div class="hero-img">
+      <img src="{{ '/assets/images/image.jpg' | relative_url }}" alt="Profile">
+    </div>
   </div>
 
-  <div class="hero-img">
-    <img src="{{ '/assets/images/image.jpg' | relative_url }}" alt="Profile">
+  <!-- WORKED WITH (SEPARATE ROW, NO COLLISION) -->
+  <div class="worked-with">
+    <span class="worked-title">Worked with</span>
+
+    <div class="company-logos">
+      <div class="company-box">
+        <img src="{{ '/assets/images/companies/anker.png' | relative_url }}" alt="Anker">
+      </div>
+
+      <div class="company-box">
+        <img src="{{ '/assets/images/companies/xiaomi.png' | relative_url }}" alt="Xiaomi">
+      </div>
+
+      <div class="company-box">
+        <img src="{{ '/assets/images/companies/milkbymom.webp' | relative_url }}" alt="Milk by Mom">
+      </div>
+
+      <div class="company-box">
+        <img src="{{ '/assets/images/companies/telenor.png' | relative_url }}" alt="Telenor">
+      </div>
+
+      <div class="company-box">
+        <img src="{{ '/assets/images/companies/zhiyun.webp' | relative_url }}" alt="Zhiyun">
+      </div>
+    </div>
   </div>
+
 </section>
 
 <section class="projects" id="projects">
