@@ -107,6 +107,8 @@ body {
 }
 
 .hero-text p {
+  font-size: 18px; 
+  line-height: 1.6;
   color: #bbb;
   margin-bottom: 30px;
 }
@@ -418,6 +420,17 @@ body {
   display: block;
   margin-top: 20px;
 }
+
+.footer p {
+  margin-top: 24px;       /* space before email line */
+}
+
+.footer p a {
+  font-size: 18px;        /* bigger email */
+  font-weight: 500;
+  color: #f5c400;         /* keeps your accent */
+}
+
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
