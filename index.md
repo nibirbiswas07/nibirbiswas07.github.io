@@ -80,7 +80,7 @@ layout: default
       </p>
       <a href="/content-writing/" class="outline-btn">View Projects</a>
     </div>
-    <img src="{{ '/assets/images/site_image/content.jpg' | relative_url }}">
+    <img src="{{ '/assets/images/site_image/content-banner.avif' | relative_url }}">
   </div>
 
 <div class="project-card reverse scroll-target" id="copy-writing">
@@ -93,7 +93,7 @@ layout: default
     <a href="/copywriting/" class="outline-btn">View Projects</a>
   </div>
 
-  <img src="{{ '/assets/images/site_image/copy.jpg' | relative_url }}">
+  <img src="{{ '/assets/images/site_image/copy-banner.png' | relative_url }}">
 </div>
 
   <div class="project-card scroll-target" id="socialmedia-strategy">

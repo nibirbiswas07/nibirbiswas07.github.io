@@ -484,11 +484,7 @@ body {
 }
 
 .outline-btn:hover{
-  background: linear-gradient(
-    90deg,
-    #f9f8f2,
-    #ffd84d
-  );
+  background:#c3c2be;
 }
 
 
