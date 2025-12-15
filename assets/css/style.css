@@ -259,8 +259,8 @@ body {
 }
 
 .mi-logo img{
-  max-height: 40px;          
-  transform: scale(2.8); 
+  max-height: 110px;        /* visually bigger */
+  max-width: 140px;
   filter: brightness(1.2) contrast(1.1);
 }
 
