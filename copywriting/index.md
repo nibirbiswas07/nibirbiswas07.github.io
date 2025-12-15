@@ -3,7 +3,14 @@ layout: default
 title: Copywriting
 ---
 
-<section class="page-hero hero-copywriting">
+<section class="page-hero">
+  <img
+    src="/assets/images/site_image/copy-banner.png"
+    alt=""
+    class="page-hero-bg"
+    loading="eager"
+    decoding="async"
+  />
   <div class="page-hero-inner">
     <h1>Copywriting</h1>
     <p>

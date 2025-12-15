@@ -3,7 +3,14 @@ layout: default
 title: Content Writing
 ---
 
-<section class="page-hero hero-content-writing">
+<section class="page-hero">
+  <img
+    src="/assets/images/site_image/content-banner.avif"
+    alt=""
+    class="page-hero-bg"
+    loading="eager"
+    decoding="async"
+  />
   <div class="page-hero-inner">
     <h1>Content Writing</h1>
     <p>
