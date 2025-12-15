@@ -13,7 +13,7 @@ layout: default
       </p>
 
       <a href="#industry-works" class="btn">Explore my works →</a>
-    </div>
+  </div>
 
 <div class="hero-img">
   <img

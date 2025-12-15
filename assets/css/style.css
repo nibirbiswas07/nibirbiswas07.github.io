@@ -411,6 +411,7 @@ body {
   width: fit-content;          /* shrink to text */
   margin: 0 auto 60px;         /* center only this */
   color: #111;
+  /* scroll-margin-top: 120px; */
 }
 
 #industry-title::after {
