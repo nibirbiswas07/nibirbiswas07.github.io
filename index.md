@@ -72,7 +72,7 @@ layout: default
         I created this personal project to show how to create an interface
         in Figma using a portfolio as an example.
       </p>
-      <button class="outline-btn">View Project</button>
+      <a href="/content-writing/" class="outline-btn">View Project</a>
     </div>
     <img src="{{ '/assets/images/site_image/content.jpg' | relative_url }}">
   </div>
@@ -84,7 +84,7 @@ layout: default
       What was your role, your deliverables, if the project was personal
       or freelancing.
     </p>
-    <button class="outline-btn">View Project</button>
+    <a href="/copywriting/" class="outline-btn">View Project</a>
   </div>
 
   <img src="{{ '/assets/images/site_image/copy.jpg' | relative_url }}">
@@ -96,7 +96,7 @@ layout: default
       <p>
         You can also add in this description the type of the project.
       </p>
-      <button class="outline-btn">View Project</button>
+      <a href="/social-media-strategy/" class="outline-btn">View Project</a>
     </div>
     <img src="{{ '/assets/images/site_image/social.jpg' | relative_url }}">
   </div>
