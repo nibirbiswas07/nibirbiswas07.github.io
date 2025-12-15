@@ -16,7 +16,13 @@ layout: default
     </div>
 
 <div class="hero-img">
-  <img src="{{ '/assets/images/nibir-image.png' | relative_url }}" alt="Profile">
+  <img
+  src="{{ '/assets/images/nibir-image.png' | relative_url }}"
+  alt="Profile"
+  loading="eager"
+  fetchpriority="high"
+  decoding="async"
+  />
 
   <div class="float-tag tag-content">
     Content Writer
