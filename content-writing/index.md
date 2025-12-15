@@ -3,7 +3,7 @@ layout: default
 title: Content Writing
 ---
 
-<section class="page-hero">
+<section class="page-hero hero-content-writing">
   <div class="page-hero-inner">
     <h1>Content Writing</h1>
     <p>

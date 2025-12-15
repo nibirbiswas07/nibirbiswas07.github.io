@@ -3,7 +3,7 @@ layout: default
 title: Copywriting
 ---
 
-<section class="page-hero">
+<section class="page-hero hero-copywriting">
   <div class="page-hero-inner">
     <h1>Copywriting</h1>
     <p>

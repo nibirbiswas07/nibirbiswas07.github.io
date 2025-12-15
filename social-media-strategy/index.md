@@ -3,7 +3,7 @@ layout: default
 title: Social Media Strategy
 ---
 
-<section class="page-hero">
+<section class="page-hero hero-socialmedia">
   <div class="page-hero-inner">
     <h1>Social Media Strategy</h1>
     <p>

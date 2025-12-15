@@ -611,12 +611,41 @@ body {
 /* ===== CONTENT WRITING PAGE ===== */
 
 .page-hero {
-  background: linear-gradient(to bottom, #2b2b2b, #181818);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   color: white;
   padding: 120px 60px 80px;
   text-align: center;
 }
 
+.hero-content-writing {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("/assets/images/site_image/content-banner.avif");
+}
+
+.hero-copywriting {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("/assets/images/site_image/copy-banner.png");
+}
+
+.hero-socialmedia{
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.75)
+  ),
+  url("/assets/images/site_image/social-banner.png");
+}
 .page-hero h1 {
   font-family: "Playfair Display", serif;
   font-size: 48px;
@@ -672,3 +701,9 @@ body {
     padding: 60px 20px;
   }
 }
+
+/* @media (min-width: 1200px) {
+  .hero-text h1 { font-size: 56px; }
+  .hero-text p { font-size: 20px; }
+  .hero-img img { width: 340px; height: 340px; }
+} */
