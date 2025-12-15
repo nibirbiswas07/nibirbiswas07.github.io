@@ -32,6 +32,10 @@ body {
   color: #aaa;
   margin: 0 15px;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
 }
 
 .navbar nav a:hover {
@@ -40,11 +44,12 @@ body {
 
 .nav-contact {
   position: relative;
-  padding: 8px 16px;
+  padding: 0 16px;
   border-radius: 10px;
   color: #fff;
   text-decoration: none;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .nav-contact::before {
@@ -704,8 +709,181 @@ body {
   }
 }
 
-/* @media (min-width: 1200px) {
-  .hero-text h1 { font-size: 56px; }
-  .hero-text p { font-size: 20px; }
-  .hero-img img { width: 340px; height: 340px; }
-} */
+@media (min-width: 1600px) {
+
+  /* =========================
+     NAVBAR
+     ========================= */
+
+  .navbar {
+    padding: 26px 80px;
+  }
+
+  .logo a {
+    font-size: 22px;
+  }
+
+  .navbar nav a {
+    font-size: 18px;
+    height: 42px;
+    padding: 0 18px;
+  }
+
+  .nav-contact {
+    border-radius: 12px;
+  }
+
+  .nav-contact::before {
+    inset: -2px;
+    border-radius: 14px;
+  }
+
+  .nav-contact::after {
+    inset: 2px;
+    border-radius: 10px;
+  }
+
+  .socials i {
+    font-size: 26px;
+  }
+
+
+  /* =========================
+     HERO
+     ========================= */
+
+  .hero {
+    padding: 80px 120px 60px;
+  }
+
+  .hero-content {
+    gap: 160px; /* big but controlled */
+  }
+
+  .hero-text {
+    max-width: 680px;
+  }
+
+  .hero-text h1 {
+    font-size: 72px;
+  }
+
+  .hero-text p {
+    font-size: 24px;
+    line-height: 1.7;
+  }
+
+  .btn {
+    padding: 18px 36px;
+    font-size: 18px;
+    border-radius: 8px;
+  }
+
+  .hero-img img {
+    width: 420px;
+    height: 420px;
+  }
+
+  .float-tag {
+    font-size: 16px;
+    padding: 12px 22px;
+  }
+
+
+  /* =========================
+     WORKED WITH
+     ========================= */
+
+  .worked-with {
+    margin-top: 120px;
+    max-width: 1400px;
+  }
+
+  .worked-title {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+  }
+
+  .company-logos {
+    gap: 28px;
+  }
+
+  .company-box {
+    height: 78px;
+    min-width: 230px;
+    padding: 14px 22px;
+    border-radius: 16px;
+  }
+
+  .company-box img {
+    max-height: 34px;
+    max-width: 140px;
+  }
+
+  .mi-logo img {
+    max-height: 150px;
+    max-width: 180px;
+  }
+
+
+  /* =========================
+     PROJECTS
+     ========================= */
+
+  .projects {
+    padding: 120px 120px;
+  }
+
+  .projects h2 {
+    font-size: 44px;
+    margin-bottom: 80px;
+  }
+
+  #industry-title {
+    font-size: 52px;
+  }
+
+  .project-card {
+    margin-bottom: 60px;
+  }
+
+  .project-card img {
+    height: 420px;
+  }
+
+  .project-text {
+    padding: 60px;
+  }
+
+  .project-text h3 {
+    font-size: 32px;
+  }
+
+  .project-text p {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .outline-btn {
+    padding: 14px 32px;
+    font-size: 16px;
+  }
+
+
+  /* =========================
+     FOOTER
+     ========================= */
+
+  .footer {
+    padding: 90px 20px;
+  }
+
+  .footer h2,
+  .footer h3 {
+    font-size: 34px;
+  }
+
+  .footer p a {
+    font-size: 20px;
+  }
+}
