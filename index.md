@@ -16,7 +16,7 @@ layout: default
     </div>
 
 <div class="hero-img">
-  <img src="{{ '/assets/images/nibir-image.png' | relative_url }}" alt="Profile">
+  <img src="{{ '/assets/images/image.jpg' | relative_url }}" alt="Profile">
 
   <div class="float-tag tag-content">
     Content Writer
@@ -27,7 +27,7 @@ layout: default
   </div>
 
   <div class="float-tag tag-social">
-    Social Media Strategist
+    Communication Specialist
   </div>
 </div>
 
@@ -35,7 +35,7 @@ layout: default
 
   <!-- WORKED WITH (SEPARATE ROW, NO COLLISION) -->
   <div class="worked-with">
-    <span class="worked-title">Worked with</span>
+    <span class="worked-title">Worked for</span>
 
 <div class="company-logos">
   <a href="https://www.anker.com" target="_blank" class="company-box anker-logo">
