@@ -19,3 +19,23 @@ document.querySelectorAll("#nav-menu a").forEach(link => {
     document.getElementById("nav-menu").classList.remove("active");
   });
 });
+
+const emailCopy = document.getElementById("email-copy");
+
+if (emailCopy) {
+  const toast = emailCopy
+    .closest(".social-item")
+    .querySelector(".copy-toast");
+
+  emailCopy.addEventListener("click", (e) => {
+    e.preventDefault(); // stops smooth-scroll hijack
+
+    navigator.clipboard.writeText("biswasnibir618@gmail.com");
+
+    toast.classList.add("show");
+
+    setTimeout(() => {
+      toast.classList.remove("show");
+    }, 2000);
+  });
+}
