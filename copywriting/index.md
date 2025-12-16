@@ -14,8 +14,7 @@ title: Copywriting
   <div class="page-hero-inner">
     <h1>Copywriting</h1>
     <p>
-      Persuasive, conversion-focused copy crafted to drive action,
-      build trust, and strengthen brand messaging.
+      Meta Ads, website messaging, and Google Ads focused on clicks, sign-ups, and sales.
     </p>
   </div>
 </section>

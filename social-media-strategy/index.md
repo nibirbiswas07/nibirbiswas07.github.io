@@ -14,8 +14,7 @@ title: Social Media Strategy
   <div class="page-hero-inner">
     <h1>Social Media Strategy</h1>
     <p>
-      Data-backed content strategies built to grow communities,
-      improve engagement, and support brand goals.
+      Content planning, UGC hook selection, editor guidance, Meta ad copy, visual messaging, and new concepts.
     </p>
   </div>
 </section>

@@ -14,8 +14,7 @@ title: Content Writing
   <div class="page-hero-inner">
     <h1>Content Writing</h1>
     <p>
-      SEO-driven, brand-aligned content designed to educate, engage,
-      and convert across platforms.
+      Storytelling-driven content focused on engagement and retention, with a track record of successful brand collaborations.
     </p>
   </div>
 </section>
@@ -23,13 +22,12 @@ title: Content Writing
 <section class="work-list">
 
   <article class="work-card">
-    <h3>Website Content – Brand Positioning</h3>
-    <span class="work-meta">Client · Anker | Website Copy</span>
+    <h3>7 Free Microsoft Office Alternatives That Are Actually Good!</h3>
+    <span class="work-meta">YouTube Script</span>
     <p>
-      Developed clear, conversion-focused website content aligned with
-      brand voice and audience intent.
+    
     </p>
-    <a href="#" class="outline-btn">Read Sample</a>
+    <a href="#" class="outline-btn">View</a>
   </article>
 
   <article class="work-card">

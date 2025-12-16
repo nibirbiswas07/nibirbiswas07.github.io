@@ -40,32 +40,34 @@ layout: default
   </div>
 
   <!-- WORKED WITH (SEPARATE ROW, NO COLLISION) -->
-  <div class="worked-with">
-    <span class="worked-title">Worked for</span>
+<div class="worked-with">
+  <span class="worked-title">Worked for</span>
 
-<div class="company-logos">
-  <a href="https://www.anker.com" target="_blank" class="company-box anker-logo">
-    <img src="{{ '/assets/images/companies/anker.png' | relative_url }}" alt="Anker">
-  </a>
+  <div class="company-logos">
 
-  <a href="https://www.mi.com" target="_blank" class="company-box mi-logo">
-    <img src="{{ '/assets/images/companies/xiaomi.png' | relative_url }}" alt="Xiaomi">
-  </a>
+    <div class="company-box anker-logo">
+      <img src="{{ '/assets/images/companies/anker.png' | relative_url }}" alt="Anker">
+    </div>
 
-  <a href="https://milkbymom.com" target="_blank" class="company-box company-box--square">
-    <img src="{{ '/assets/images/companies/milkbymom.png' | relative_url }}" alt="Milk by Mom">
-  </a>
+    <div class="company-box mi-logo">
+      <img src="{{ '/assets/images/companies/xiaomi.png' | relative_url }}" alt="Xiaomi">
+    </div>
 
-  <a href="https://www.telenor.com" target="_blank" class="company-box telenor-logo">
-    <img src="{{ '/assets/images/companies/telenor.png' | relative_url }}" alt="Telenor">
-  </a>
+    <div class="company-box company-box--square">
+      <img src="{{ '/assets/images/companies/milkbymom.png' | relative_url }}" alt="Milk by Mom">
+    </div>
 
-  <a href="https://www.zhiyun-tech.com" target="_blank" class="company-box">
-    <img src="{{ '/assets/images/companies/zhiyun.webp' | relative_url }}" alt="Zhiyun">
-  </a>
-</div>
+    <div class="company-box telenor-logo">
+      <img src="{{ '/assets/images/companies/telenor.png' | relative_url }}" alt="Telenor">
+    </div>
+
+    <div class="company-box">
+      <img src="{{ '/assets/images/companies/zhiyun.webp' | relative_url }}" alt="Zhiyun">
+    </div>
 
   </div>
+</div>
+
 
 </section>
 
@@ -75,8 +77,7 @@ layout: default
     <div class="project-text">
       <h3>CONTENT WRITING</h3>
       <p>
-        I created this personal project to show how to create an interface
-        in Figma using a portfolio as an example.
+        Storytelling-driven content focused on engagement and retention, with a track record of successful brand collaborations.
       </p>
       <a href="/content-writing/" class="outline-btn">View Projects</a>
     </div>
@@ -87,8 +88,7 @@ layout: default
   <div class="project-text">
     <h3>COPYWRITING</h3>
     <p>
-      What was your role, your deliverables, if the project was personal
-      or freelancing.
+      Meta Ads, website messaging, and Google Ads focused on clicks, sign-ups, and sales.
     </p>
     <a href="/copywriting/" class="outline-btn">View Projects</a>
   </div>
@@ -100,7 +100,7 @@ layout: default
     <div class="project-text">
       <h3>SOCIAL MEDIA STRATEGY</h3>
       <p>
-        You can also add in this description the type of the project.
+        Content planning, UGC hook selection, editor guidance, Meta ad copy, visual messaging, and new concepts.
       </p>
       <a href="/social-media-strategy/" class="outline-btn">View Projects</a>
     </div>
