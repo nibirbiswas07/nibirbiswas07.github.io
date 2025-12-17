@@ -627,9 +627,50 @@ body {
   }
 
   .hero-img {
-    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
   .float-tag {
+    position: static;
+    display: block;
+
+    width: 100%;
+    max-width: 260px;          /* equal length */
+    text-align: center;
+
+    margin-top: 18px;          /* 🔑 more breathing space */
+    padding: 12px 18px;
+
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+
+    border-radius: 999px;
+
+    background: linear-gradient(
+      180deg,
+      rgba(255,255,255,0.12),
+      rgba(255,255,255,0.06)
+    );
+
+    color: #f5f5f5;
+
+    border: 1px solid rgba(255,255,255,0.18);
+    backdrop-filter: blur(6px);
+
+    box-shadow: 
+      0 10px 28px rgba(0,0,0,0.45),
+      inset 0 1px 0 rgba(255,255,255,0.15);
+
+    animation: none;
+  }
+  .tag-content {
+    margin-top: 60px; /* 🔑 adds space from image */
+  }
+
+  .float-tag::after {
     display: none;
   }
 
