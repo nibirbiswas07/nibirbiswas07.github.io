@@ -45,9 +45,12 @@ document.querySelectorAll('.open-modal').forEach(btn => {
   btn.addEventListener('click', () => {
     const modalId = btn.dataset.modal;
     document.getElementById(modalId).classList.add('active');
+
+    document.body.classList.add('modal-open'); // 🔑 ADD THIS
     document.body.style.overflow = 'hidden';
   });
 });
+
 
 // Close modal (button or overlay)
 document.querySelectorAll('.modal-overlay').forEach(modal => {
@@ -57,16 +60,21 @@ document.querySelectorAll('.modal-overlay').forEach(modal => {
       e.target.classList.contains('modal-close')
     ) {
       modal.classList.remove('active');
+
+      document.body.classList.remove('modal-open'); // 🔑 ADD THIS
       document.body.style.overflow = '';
     }
   });
 });
+
 
 // Close on ESC
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
     document.querySelectorAll('.modal-overlay.active').forEach(modal => {
       modal.classList.remove('active');
+
+      document.body.classList.remove('modal-open'); // 🔑 ADD THIS
       document.body.style.overflow = '';
     });
   }

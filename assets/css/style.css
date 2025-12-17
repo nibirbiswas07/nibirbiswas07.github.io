@@ -885,6 +885,10 @@ body {
 
 
 /* ===== MODAL for content ===== */
+/* Hide navbar when modal is open */
+body.modal-open .navbar {
+  display: none;
+}
 .modal,
 .modal * {
   font-family: Arial, Helvetica, sans-serif;
@@ -1194,6 +1198,7 @@ body {
    (NO LAYOUT CHANGES)
    ========================= */
    @media (max-width: 900px) {
+    
 
     /* 1️⃣ Stop continuous animations */
     .float-tag {
