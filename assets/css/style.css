@@ -534,6 +534,21 @@ body {
 /* RESPONSIVE */
 @media (max-width: 900px) {
 
+  * {
+    backdrop-filter: none !important;
+  }
+
+  .company-box,
+  .float-tag,
+  .project-card {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  }
+
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+
   /* Offset for fixed navbar */
   body {
     padding-top: 64px;
@@ -629,7 +644,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 240px;
+    height: 240px;
   }
+  
 
   .float-tag {
     position: static;
