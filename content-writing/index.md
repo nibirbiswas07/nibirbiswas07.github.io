@@ -807,69 +807,68 @@ title: Content Writing
 
     <h2>Anker PowerHouse 767</h2>
 
-    <div class="modal-content">
-    <ul>
-  <li>
+<div class="modal-content">
+
+  <p>
     Now let’s talk about today’s sponsor — <strong>Anker PowerHouse 767</strong>,
     the ultimate portable power station built for an adventurous and off-grid lifestyle.
-  </li>
+  </p>
 
-  <li>
+  <p>
     With a massive <strong>2048-watt-hour capacity</strong> and
     <strong>2400-watt AC output</strong>, it outperforms most competitors by
     delivering longer-lasting and more reliable power.
-  </li>
+  </p>
 
-  <li>
+  <p>
     It uses <strong>InfiPower technology</strong> combined with
     <strong>LiFePO4 batteries</strong> to ensure high efficiency, long battery life,
     and consistent performance.
-  </li>
+  </p>
 
-  <li>
+  <p>
     Thanks to <strong>GaNPrime technology</strong>, the PowerHouse 767 charges faster
     while reducing energy consumption by an impressive <strong>60 percent</strong>.
-  </li>
+  </p>
 
-  <li>
+  <p>
     Durability is a major highlight. Its <strong>unibody, drop-proof construction</strong>
     is built to handle tough outdoor conditions without compromising reliability.
-  </li>
+  </p>
 
-  <li>
+  <p>
     Despite its powerful build, portability isn’t sacrificed. The inclusion of
     <strong>built-in wheels</strong> makes transportation easy, even during long trips.
-  </li>
+  </p>
 
-  <li>
+  <p>
     Pair it with an additional <strong>1000-watt solar generator</strong>, and the
     PowerHouse 767 can fully recharge in approximately
     <strong>two and a half hours</strong>.
-  </li>
+  </p>
 
-  <li>
+  <p>
     A dedicated <strong>smart app</strong> gives you complete control and real-time
     monitoring of power usage directly from your phone.
-  </li>
+  </p>
 
-  <li>
+  <p>
     The built-in <strong>smart temperature control system</strong> prevents overheating,
     further improving safety and long-term durability.
-  </li>
+  </p>
 
-  <li>
+  <p>
     By adding an <strong>expansion battery</strong>, you can double the capacity to
     a massive <strong>4096 watt-hours</strong>, making it perfect for extended off-grid
     adventures.
-  </li>
+  </p>
 
-  <li>
+  <p>
     So don’t settle for anything less — the <strong>Anker PowerHouse 767</strong>
     is truly a game-changer in the world of portable power.
-  </li>
-</ul>
+  </p>
 
+</div>
 
-    </div>
   </div>
 </div>
