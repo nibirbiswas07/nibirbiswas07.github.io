@@ -534,41 +534,84 @@ body {
 /* RESPONSIVE */
 @media (max-width: 900px) {
 
-  #home {
-    scroll-margin-top: 320px;
-  }
-  .navbar {
-    flex-wrap: wrap;
-    padding: 20px;
+  /* Offset for fixed navbar */
+  body {
+    padding-top: 64px;
   }
 
-  .menu-toggle {
-    display: block;
-    color: white;
+  #home {
+    scroll-margin-top: 64px;
   }
+
+  /* =====================
+     NAVBAR LAYOUT
+     ===================== */
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* 🔑 IMPORTANT */
+
+    padding: 14px 16px;
+    background: #111;
+    z-index: 1000;
+  }
+
+  /* Logo stays left */
+  .logo {
+    order: 1;
+  }
+
+  /* Social icons sit in the middle */
+  .socials {
+    order: 2;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    margin-left: auto;   /* 🔑 pushes icons right */
+    margin-right: 12px;  /* space before ☰ */
+  }
+
+  /* Hamburger goes far right */
+  .menu-toggle {
+    order: 3;
+    display: block;
+    font-size: 26px;
+    cursor: pointer;
+  }
+
+  /* =====================
+     DROPDOWN MENU
+     ===================== */
 
   nav {
+    position: absolute;
+    top: 100%;   /* below navbar */
+    left: 0;
     width: 100%;
+
+    background: #111;
     display: none;
     flex-direction: column;
-    margin-top: 20px;
-  }
 
-  nav a {
-    padding: 12px 0;
-    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 8px 0;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    z-index: 999;
   }
 
   nav.active {
     display: flex;
   }
 
-  .socials {
-    width: 100%;
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  nav a {
+    padding: 14px 20px;
+    border-top: 1px solid rgba(255,255,255,0.08);
   }
   
 
