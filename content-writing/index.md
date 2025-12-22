@@ -809,64 +809,65 @@ title: Content Writing
 
 <div class="modal-content">
 
-  <p>
-    Now let’s talk about today’s sponsor — <strong>Anker PowerHouse 767</strong>,
-    the ultimate portable power station built for an adventurous and off-grid lifestyle.
-  </p>
+<p>
+  Now let’s talk about today’s sponsor — Anker PowerHouse 767,
+  the ultimate portable power station built for an adventurous and off-grid lifestyle.
+</p>
 
-  <p>
-    With a massive <strong>2048-watt-hour capacity</strong> and
-    <strong>2400-watt AC output</strong>, it outperforms most competitors by
-    delivering longer-lasting and more reliable power.
-  </p>
+<p>
+  With a massive 2048-watt-hour capacity and
+  2400-watt AC output, it outperforms most competitors by
+  delivering longer-lasting and more reliable power.
+</p>
 
-  <p>
-    It uses <strong>InfiPower technology</strong> combined with
-    <strong>LiFePO4 batteries</strong> to ensure high efficiency, long battery life,
-    and consistent performance.
-  </p>
+<p>
+  It uses InfiPower technology combined with
+  LiFePO4 batteries to ensure high efficiency, long battery life,
+  and consistent performance.
+</p>
 
-  <p>
-    Thanks to <strong>GaNPrime technology</strong>, the PowerHouse 767 charges faster
-    while reducing energy consumption by an impressive <strong>60 percent</strong>.
-  </p>
+<p>
+  Thanks to GaNPrime technology, the PowerHouse 767 charges faster
+  while reducing energy consumption by an impressive 60 percent.
+</p>
 
-  <p>
-    Durability is a major highlight. Its <strong>unibody, drop-proof construction</strong>
-    is built to handle tough outdoor conditions without compromising reliability.
-  </p>
+<p>
+  Durability is a major highlight. Its unibody, drop-proof construction
+  is built to handle tough outdoor conditions without compromising reliability.
+</p>
 
-  <p>
-    Despite its powerful build, portability isn’t sacrificed. The inclusion of
-    <strong>built-in wheels</strong> makes transportation easy, even during long trips.
-  </p>
+<p>
+  Despite its powerful build, portability isn’t sacrificed. The inclusion of
+  built-in wheels makes transportation easy, even during long trips.
+</p>
 
-  <p>
-    Pair it with an additional <strong>1000-watt solar generator</strong>, and the
-    PowerHouse 767 can fully recharge in approximately
-    <strong>two and a half hours</strong>.
-  </p>
+<p>
+  Pair it with an additional 1000-watt solar generator, and the
+  PowerHouse 767 can fully recharge in approximately
+  two and a half hours.
+</p>
 
-  <p>
-    A dedicated <strong>smart app</strong> gives you complete control and real-time
-    monitoring of power usage directly from your phone.
-  </p>
+<p>
+  A dedicated smart app gives you complete control and real-time
+  monitoring of power usage directly from your phone.
+</p>
 
-  <p>
-    The built-in <strong>smart temperature control system</strong> prevents overheating,
-    further improving safety and long-term durability.
-  </p>
+<p>
+  The built-in smart temperature control system prevents overheating,
+  further improving safety and long-term durability.
+</p>
 
-  <p>
-    By adding an <strong>expansion battery</strong>, you can double the capacity to
-    a massive <strong>4096 watt-hours</strong>, making it perfect for extended off-grid
-    adventures.
-  </p>
+<p>
+  By adding an expansion battery, you can double the capacity to
+  a massive 4096 watt-hours, making it perfect for extended off-grid
+  adventures.
+</p>
 
-  <p>
-    So don’t settle for anything less — the <strong>Anker PowerHouse 767</strong>
-    is truly a game-changer in the world of portable power.
-  </p>
+<p>
+  So don’t settle for anything less — the Anker PowerHouse 767
+  is truly a game-changer in the world of portable power.
+</p>
+
 
 </div>
 
