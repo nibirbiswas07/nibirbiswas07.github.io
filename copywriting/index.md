@@ -151,14 +151,54 @@ title: Copywriting
 <div class="modal-overlay" id="modal-copy-summit">
   <div class="modal-box">
 
+    <!-- Close -->
     <button class="modal-close" aria-label="Close modal">×</button>
 
+    <!-- Title -->
     <h2>Summit Golf Brands</h2>
-    <span class="work-meta">Copy Proofreading and Design Quality Check</span>
+    <span class="work-meta">Planning and writing copy for Video Ads</span>
 
-    <div class="modal-content copywriting-samples">
-      <img src="/assets/images/dummy/summit-1.jpg" alt="">
-      <img src="/assets/images/dummy/summit-2.jpg" alt="">
+
+
+    <!-- VIDEO PREVIEW GRID -->
+    <div class="modal-content copywriting-samples summit-video-grid">
+
+      <a
+        href="https://drive.google.com/file/d/1o7NJLJvaRPitxMjbM8lSzdZkYtYoLZTS/view?usp=drive_link"
+        target="_blank"
+        rel="noopener"
+        class="video-preview"
+      >
+        <img src="/assets/images/copywriting_image/summit/1.png" alt="Summit video sample 1">
+      </a>
+
+      <a
+        href="https://drive.google.com/file/d/1sEH5Uc5i4P7v9YSiSZSbTjgyY4a3m8B-/view?usp=drive_link"
+        target="_blank"
+        rel="noopener"
+        class="video-preview"
+      >
+        <img src="/assets/images/copywriting_image/summit/2.png" alt="Summit video sample 2">
+      </a>
+
+      <a
+        href="https://drive.google.com/file/d/1HdTG8rDNDNlMTZRfBmqFb7ZIusVajUAA/view?usp=drive_link"
+        target="_blank"
+        rel="noopener"
+        class="video-preview"
+      >
+        <img src="/assets/images/copywriting_image/summit/3.png" alt="Summit video sample 3">
+      </a>
+
+      <a
+        href="https://drive.google.com/file/d/14tKM4FREUIyoYZ0A9kd0nALLQBSCD_mT/view?usp=drive_link"
+        target="_blank"
+        rel="noopener"
+        class="video-preview"
+      >
+        <img src="/assets/images/copywriting_image/summit/4.png" alt="Summit video sample 4">
+      </a>
+
     </div>
 
   </div>
