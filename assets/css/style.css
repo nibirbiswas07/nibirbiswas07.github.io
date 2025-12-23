@@ -1103,6 +1103,100 @@ body.modal-open .navbar {
   }
 }
 
+/* ============================
+   COPYWRITING MODAL – SAMPLES
+   ============================ */
+
+/* ============================
+   COPYWRITING MODAL HEADER
+   ============================ */
+
+.modal-overlay[id^="modal-copy-"] h2 {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.modal-overlay[id^="modal-copy-"] .work-meta {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 28px;
+}
+
+
+/* Modal sizing – not fullscreen, not cramped */
+.modal-overlay .modal-box {
+  max-width: 960px;
+}
+
+/* Samples container */
+.copywriting-samples {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-top: 28px;
+}
+
+/* Individual sample images */
+.copywriting-samples img {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+
+  object-fit: contain;
+
+  border-radius: 12px;
+  padding: 14px;
+
+  box-shadow:
+    0 10px 30px rgba(255, 90, 130, 0.28),
+    /* 🔥 stronger pink glow */
+    0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+
+
+/* Prevent over-stretching on huge screens */
+@media (min-width: 1400px) {
+  .modal-overlay .modal-box {
+    max-width: 1040px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .copywriting-samples {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .copywriting-samples img {
+    max-height: none;
+    /* allow natural height */
+    padding: 12px;
+  }
+}
+
+/* ============================
+   KIMBO COFFEE – BROWN GLOW
+   ============================ */
+
+#modal-copy-kimbo .copywriting-samples img {
+  box-shadow:
+    0 10px 30px rgba(170, 120, 70, 0.28),
+    0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 900px) {
+  #modal-copy-kimbo .copywriting-samples img {
+    box-shadow:
+      0 8px 22px rgba(170, 120, 70, 0.22),
+      0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+}
+
+
 
 
 
