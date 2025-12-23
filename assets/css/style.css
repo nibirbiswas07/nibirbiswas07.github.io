@@ -6,14 +6,17 @@
 }
 
 #home {
-  scroll-margin-top: 80px; /* match navbar height */
+  scroll-margin-top: 80px;
+  /* match navbar height */
 }
 
 body {
   background: #f6f8fb;
   color: #222;
-  overflow-x: hidden; /* safety against overflow */
+  overflow-x: hidden;
+  /* safety against overflow */
 }
+
 
 /* NAVBAR */
 .navbar {
@@ -57,14 +60,12 @@ body {
   position: absolute;
   inset: -1px;
   border-radius: 12px;
-  background: linear-gradient(
-    90deg,
-    #ffffff,
-    #e6e6e6,
-    #4caf00,
-    #e6e6e6,
-    #ffffff
-  );
+  background: linear-gradient(90deg,
+      #ffffff,
+      #e6e6e6,
+      #4caf00,
+      #e6e6e6,
+      #ffffff);
   background-size: 300% 300%;
   animation: subtle-flow 6s linear infinite;
   z-index: -1;
@@ -75,13 +76,19 @@ body {
   position: absolute;
   inset: 1px;
   border-radius: 8px;
-  background: #111; /* navbar background */
+  background: #111;
+  /* navbar background */
   z-index: -1;
 }
 
 @keyframes subtle-flow {
-  0%   { background-position: 0% 50%; }
-  100% { background-position: 300% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 300% 50%;
+  }
 }
 
 
@@ -92,7 +99,8 @@ body {
 }
 
 .logo a:hover {
-  color: #f5c400; /* optional hover accent */
+  color: #f5c400;
+  /* optional hover accent */
 }
 
 .socials {
@@ -132,6 +140,7 @@ body {
 .socials .fa-envelope {
   transform: scale(0.95);
 }
+
 .social-item {
   position: relative;
 }
@@ -158,14 +167,12 @@ body {
   transform: translateX(-50%) translateY(4px);
 }
 
-
-
-
 .menu-toggle {
   display: none;
   font-size: 26px;
   cursor: pointer;
 }
+
 
 /* HERO */
 .hero {
@@ -186,7 +193,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: clamp(60px, 10vw, 120px); /* replaces layout transforms */
+  gap: clamp(60px, 10vw, 120px);
+  /* replaces layout transforms */
 }
 
 /* TEXT */
@@ -201,7 +209,7 @@ body {
 }
 
 .hero-text p {
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 1.6;
   color: #bbb;
   margin-bottom: 30px;
@@ -217,7 +225,8 @@ body {
 
 /* IMAGE */
 .hero-img {
-  margin-top: 30px; /* ✅ replaces transform */
+  margin-top: 30px;
+  /* ✅ replaces transform */
   position: relative;
 }
 
@@ -232,7 +241,7 @@ body {
   background: #e8ebd4;
   color: #111;
 
-  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
   white-space: nowrap;
 
   animation: floatY 6s ease-in-out infinite;
@@ -240,15 +249,24 @@ body {
 
 /* Soft floating motion */
 @keyframes floatY {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-12px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .hero-img img {
   width: 300px;
   height: 300px;
-  aspect-ratio: 1 / 1;   /* 🔑 locks space before load */
+  aspect-ratio: 1 / 1;
+  /* 🔑 locks space before load */
   border-radius: 50%;
   object-fit: cover;
   display: block;
@@ -263,6 +281,7 @@ body {
   bottom: 20px;
   animation-delay: 0s;
 }
+
 .tag-social::after {
   right: -18px;
   top: 50%;
@@ -288,6 +307,7 @@ body {
   top: 30px;
   animation-delay: 4s;
 }
+
 .tag-content::after {
   right: -18px;
   top: 50%;
@@ -337,16 +357,14 @@ body {
   align-items: center;
   justify-content: center;
 
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.08),
-    rgba(255, 255, 255, 0.02)
-  );
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.02));
 
   border: 1px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(8px);
 
-  transition: 
+  transition:
     transform 0.25s ease,
     box-shadow 0.25s ease,
     background 0.25s ease;
@@ -359,57 +377,64 @@ body {
   max-height: 28px;
   max-width: 120px;
   object-fit: contain;
-  opacity: 1; /* 🔥 full clarity */
+  opacity: 1;
+  /* 🔥 full clarity */
   filter: grayscale(0%);
 }
 
 /* Hover effect */
 .company-box:hover {
   transform: translateY(-2px);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.14),
-    rgba(255, 255, 255, 0.04)
-  );
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.14),
+      rgba(255, 255, 255, 0.04));
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .company-box--square img {
-  max-height: 40px;   /* bigger than others */
+  max-height: 40px;
+  /* bigger than others */
   max-width: 50px;
 }
 
 
 .telenor-logo img {
-  max-height: 40px;          /* slightly larger */
-  transform: scale(2.5); 
+  max-height: 40px;
+  /* slightly larger */
+  transform: scale(2.5);
   filter: brightness(1.2) contrast(1.1);
 }
 
-.mi-logo img{
-  max-height: 110px;        /* visually bigger */
+.mi-logo img {
+  max-height: 110px;
+  /* visually bigger */
   max-width: 140px;
   filter: brightness(1.2) contrast(1.1);
 }
 
-.anker-logo img{         
-  transform: scale(0.8); 
+.anker-logo img {
+  transform: scale(0.8);
   filter: brightness(1.2) contrast(1.1);
 }
 
-/* PROJECTS */
+
+/* PROJECTS for the home page*/
 .scroll-target {
   scroll-margin-top: 80px;
 }
+
 #industry-title {
   font-family: "Playfair Display", serif;
   font-size: 42px;
   font-weight: 600;
 
-  position: relative;          /* REQUIRED */
+  position: relative;
+  /* REQUIRED */
   display: block;
-  width: fit-content;          /* shrink to text */
-  margin: 0 auto 60px;         /* center only this */
+  width: fit-content;
+  /* shrink to text */
+  margin: 0 auto 60px;
+  /* center only this */
   color: #111;
   /* scroll-margin-top: 120px; */
 }
@@ -424,13 +449,11 @@ body {
 
   height: 6px;
   border-radius: 4px;
-  
+
   /* background: #f5c400; */
-  background: linear-gradient(
-    90deg,
-    #f5c400,
-    #ffd84d
-  );
+  background: linear-gradient(90deg,
+      #f5c400,
+      #ffd84d);
 }
 
 
@@ -451,7 +474,7 @@ body {
   align-items: center;
   margin-bottom: 40px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .project-card img {
@@ -480,17 +503,20 @@ body {
   display: inline-block;
   padding: 10px 24px;
   border-radius: 30px;
-  border: 1px solid #555;        /* softer than pure black */
+  border: 1px solid #555;
+  /* softer than pure black */
   background: none;
   cursor: pointer;
 
-  color: #222;                  /* dark gray instead of black */
+  color: #222;
+  /* dark gray instead of black */
   text-decoration: none;
   font-weight: 500;
 }
 
 .outline-btn:hover {
-  background: #f2f4f8;          /* subtle cool-gray hover */
+  background: #f2f4f8;
+  /* subtle cool-gray hover */
 }
 
 
@@ -498,14 +524,14 @@ body {
   flex-direction: row-reverse;
 }
 
-
 /* FOOTER */
 .footer {
- background: linear-gradient(to bottom, #2b2b2b, #181818);
+  background: linear-gradient(to bottom, #2b2b2b, #181818);
   color: white;
   text-align: center;
   padding: 60px 20px;
 }
+
 .footer a {
   color: #f5c400;
   letter-spacing: 0.3px;
@@ -516,22 +542,26 @@ body {
   display: block;
   margin-top: 20px;
 }
-.footer h2,h3{
+
+.footer h2,
+h3 {
   font-size: 30px;
 }
 
 .footer p {
-  margin-top: 24px;       /* space before email line */
+  margin-top: 24px;
+  /* space before email line */
 }
 
 .footer p a {
-  font-size: 18px;        /* bigger email */
+  font-size: 18px;
+  /* bigger email */
   font-weight: 500;
-  color: #f5c400;         /* keeps your accent */
+  color: #f5c400;
+  /* keeps your accent */
 }
 
-
-/* RESPONSIVE */
+/* RESPONSIVE for home page and overall skeleton*/
 @media (max-width: 900px) {
 
   /* Offset for fixed navbar */
@@ -555,7 +585,8 @@ body {
 
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* 🔑 IMPORTANT */
+    justify-content: flex-start;
+    /* 🔑 IMPORTANT */
 
     padding: 14px 16px;
     background: #111;
@@ -574,8 +605,10 @@ body {
     align-items: center;
     gap: 14px;
 
-    margin-left: auto;   /* 🔑 pushes icons right */
-    margin-right: 12px;  /* space before ☰ */
+    margin-left: auto;
+    /* 🔑 pushes icons right */
+    margin-right: 12px;
+    /* space before ☰ */
   }
 
   /* Hamburger goes far right */
@@ -592,7 +625,8 @@ body {
 
   nav {
     position: absolute;
-    top: 100%;   /* below navbar */
+    top: 100%;
+    /* below navbar */
     left: 0;
     width: 100%;
 
@@ -610,9 +644,9 @@ body {
 
   nav a {
     padding: 14px 20px;
-    border-top: 1px solid rgba(255,255,255,0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
   }
-  
+
 
   .hero {
     min-height: auto;
@@ -636,10 +670,12 @@ body {
     display: block;
 
     width: 100%;
-    max-width: 260px;          /* equal length */
+    max-width: 260px;
+    /* equal length */
     text-align: center;
 
-    margin-top: 18px;          /* 🔑 more breathing space */
+    margin-top: 18px;
+    /* 🔑 more breathing space */
     padding: 12px 18px;
 
     font-size: 14px;
@@ -648,25 +684,25 @@ body {
 
     border-radius: 999px;
 
-    background: linear-gradient(
-      180deg,
-      rgba(255,255,255,0.12),
-      rgba(255,255,255,0.06)
-    );
+    background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0.12),
+        rgba(255, 255, 255, 0.06));
 
     color: #f5f5f5;
 
-    border: 1px solid rgba(255,255,255,0.18);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     backdrop-filter: blur(6px);
 
-    box-shadow: 
-      0 10px 28px rgba(0,0,0,0.45),
-      inset 0 1px 0 rgba(255,255,255,0.15);
+    box-shadow:
+      0 10px 28px rgba(0, 0, 0, 0.45),
+      inset 0 1px 0 rgba(255, 255, 255, 0.15);
 
     animation: none;
   }
+
   .tag-content {
-    margin-top: 60px; /* 🔑 adds space from image */
+    margin-top: 60px;
+    /* 🔑 adds space from image */
   }
 
   .float-tag::after {
@@ -675,12 +711,14 @@ body {
 
   /* ✅ FIXED CENTERING */
   .worked-with {
-    padding-left: 0;        /* 🔑 reset desktop offset */
+    padding-left: 0;
+    /* 🔑 reset desktop offset */
     text-align: center;
   }
 
   .company-logos {
-    justify-content: center; /* 🔑 center logos */
+    justify-content: center;
+    /* 🔑 center logos */
   }
 
   .scroll-target {
@@ -698,7 +736,8 @@ body {
   }
 }
 
-/* ===== CONTENT WRITING,copy writing,social PAGE ===== */
+
+/* =====for banner section and the similar part of.. CONTENT WRITING,copy writing,social PAGE ===== */
 
 .page-hero {
   position: relative;
@@ -724,10 +763,8 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.55),
-    rgba(0, 0, 0, 0.75)
-  );
+  background: linear-gradient(rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.75));
   z-index: 1;
 }
 
@@ -750,7 +787,8 @@ body {
   font-size: 16px;
 }
 
-/* workcard and work list global behaviour */
+
+/* workcard and work list global behaviour for CONTENT WRITING,copy writing,social PAGE */
 .work-list {
   padding: 80px 60px;
   max-width: 900px;
@@ -761,7 +799,7 @@ body {
   background: #fff;
   padding: 40px;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   margin-bottom: 40px;
 }
 
@@ -783,7 +821,19 @@ body {
   margin-bottom: 20px;
 }
 
-/*ui change / image fix.... for content card */
+/* Mobile */
+@media (max-width: 900px) {
+  .page-hero {
+    padding: 100px 20px 60px;
+  }
+
+  .work-list {
+    padding: 60px 20px;
+  }
+}
+
+
+/* THIS is for Content-writing work-card..work list ..modal..everying here is for content writing */
 .work-card.content-card {
   display: flex;
   align-items: center;
@@ -825,8 +875,8 @@ body {
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: rgba(0,0,0,0.65);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+  background: rgba(0, 0, 0, 0.65);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
   z-index: 2;
 }
 
@@ -889,10 +939,12 @@ body {
 body.modal-open .navbar {
   display: none;
 }
+
 .modal,
 .modal * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -922,7 +974,7 @@ body.modal-open .navbar {
   border-radius: 18px;
   position: relative;
   overflow-y: auto;
-  box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
   animation: modalPop 0.3s ease;
 }
 
@@ -931,6 +983,7 @@ body.modal-open .navbar {
     transform: translateY(12px) scale(0.98);
     opacity: 0;
   }
+
   to {
     transform: translateY(0) scale(1);
     opacity: 1;
@@ -950,7 +1003,8 @@ body.modal-open .navbar {
   font-size: 15px;
   font-family: Arial, sans-serif;
 }
-.modal-content strong{
+
+.modal-content strong {
   font-family: Arial, sans-serif;
 }
 
@@ -962,9 +1016,11 @@ body.modal-open .navbar {
 
 /* Close button */
 .modal-close {
-  position: sticky;          /* 🔑 stays visible on scroll */
+  position: sticky;
+  /* 🔑 stays visible on scroll */
   top: 1px;
-  left: calc(100% - 15px);   /* aligns to top-right */
+  left: calc(100% - 15px);
+  /* aligns to top-right */
   z-index: 10;
 
   width: 40px;
@@ -1007,18 +1063,60 @@ body.modal-open .navbar {
 }
 
 
+/* THIS is for Copy-writing work-card..work list ..modal..everying here is for copy writing */
 
-/* Mobile */
+.work-card--copywriting {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Text area */
+.work-card--copywriting .work-content--copywriting {
+  flex: 1;
+}
+
+/* Image on right */
+.work-card--copywriting .work-image--copywriting {
+  flex: 0 0 200px;
+  height: 140px;
+  border-radius: 14px;
+  overflow: hidden;
+  position: relative;
+}
+
+.work-card--copywriting .work-image--copywriting img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 900px) {
-  .page-hero {
-    padding: 100px 20px 60px;
+  .work-card--copywriting {
+    flex-direction: column;
+    align-items: stretch;
   }
 
-  .work-list {
-    padding: 60px 20px;
+  .work-card--copywriting .work-image--copywriting {
+    width: 100%;
+    height: 180px;
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*this is overall @media fix for large screen and mobile */
 @media (min-width: 1600px) {
 
   /* =========================
@@ -1067,7 +1165,8 @@ body.modal-open .navbar {
   }
 
   .hero-content {
-    gap: 160px; /* big but controlled */
+    gap: 160px;
+    /* big but controlled */
   }
 
   .hero-text {
@@ -1202,41 +1301,39 @@ body.modal-open .navbar {
    MOBILE PERFORMANCE OPTIMIZATION
    (NO LAYOUT CHANGES)
    ========================= */
-   @media (max-width: 900px) {
-    
+@media (max-width: 900px) {
 
-    /* 1️⃣ Stop continuous animations */
-    .float-tag {
-      animation: none !important;
-    }
-  
-    /* 2️⃣ Kill backdrop blur (major GPU cost) */
-    .company-box,
-    .modal-overlay,
-    .float-tag {
-      backdrop-filter: none !important;
-      -webkit-backdrop-filter: none !important;
-    }
-  
-    /* 3️⃣ Simplify heavy shadows */
-    .float-tag,
-    .company-box,
-    .modal-box {
-      box-shadow: 0 6px 18px rgba(0,0,0,0.25) !important;
-    }
-  
-    /* 4️⃣ Reduce hero image decode cost */
-    .hero-img img {
-      width: 260px;
-      height: 260px;
-    }
-  
-    /* 5️⃣ Disable hover-only effects on touch */
-    .company-box:hover,
-    .content-card .work-image:hover img {
-      transform: none !important;
-      box-shadow: none !important;
-    }
+
+  /* 1️⃣ Stop continuous animations */
+  .float-tag {
+    animation: none !important;
   }
-  
 
+  /* 2️⃣ Kill backdrop blur (major GPU cost) */
+  .company-box,
+  .modal-overlay,
+  .float-tag {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  /* 3️⃣ Simplify heavy shadows */
+  .float-tag,
+  .company-box,
+  .modal-box {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25) !important;
+  }
+
+  /* 4️⃣ Reduce hero image decode cost */
+  .hero-img img {
+    width: 260px;
+    height: 260px;
+  }
+
+  /* 5️⃣ Disable hover-only effects on touch */
+  .company-box:hover,
+  .content-card .work-image:hover img {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+}

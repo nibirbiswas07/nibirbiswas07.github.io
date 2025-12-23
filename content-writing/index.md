@@ -29,22 +29,21 @@ title: Content Writing
       Story-driven YouTube script designed for retention and engagement.
     </p>
 
-  <button
+    <button
       class="outline-btn open-modal"
       data-modal="modal-1">
       View Script
     </button>
   </div>
 
-<a
+  <a
   href="https://youtu.be/mkRYrR2EqEs?si=jgzKQDJHHZG3wdtZ"
   class="work-image"
   target="_blank"
   rel="noopener"
->
+  >
   <img src="/assets/images/content_image/content1.jpg" alt="">
-</a>
-
+  </a>
 </article>
 
 

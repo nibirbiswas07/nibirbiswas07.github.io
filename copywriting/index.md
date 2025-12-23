@@ -19,36 +19,51 @@ title: Copywriting
   </div>
 </section>
 
-<section class="work-list">
+<section class="work-list work-list--copywriting">
 
-  <article class="work-card">
-    <h3>Landing Page Copy – Product Launch</h3>
-    <span class="work-meta">Client · Xiaomi | Campaign Copy</span>
-    <p>
-      Wrote high-conversion landing page copy focused on product benefits,
-      clarity, and emotional triggers.
-    </p>
-    <a href="#" class="outline-btn">View Case</a>
+  <article class="work-card work-card--copywriting">
+    <div class="work-content work-content--copywriting">
+      <h3>Milk by Mom</h3>
+      <span class="work-meta">Social Media Ad Copy</span>
+      <p>
+        Emotion-focused ad copy and creatives for a niche market that moms relate to.
+      </p>
+      <a href="#" class="outline-btn">View Samples</a>
+    </div>
+
+    <div class="work-image work-image--copywriting">
+      <img src="/assets/images/copywriting_image/milk_by_mom.jpg" alt="Milk by Mom project">
+    </div>
   </article>
 
-  <article class="work-card">
-    <h3>Ad Copy – Performance Campaigns</h3>
-    <span class="work-meta">Client · Anker | Paid Ads</span>
-    <p>
-      Created concise, scroll-stopping ad copy optimized for social and
-      performance marketing funnels.
-    </p>
-    <a href="#" class="outline-btn">View Samples</a>
+  <article class="work-card work-card--copywriting">
+    <div class="work-content work-content--copywriting">
+      <h3>Kimbo Coffee</h3>
+      <span class="work-meta">Social Media Ad Copy</span>
+      <p>
+        Copy and creatives focused on the authenticity, taste, and heritage of true Napoli coffee, tailored for a U.S. audience.
+      </p>
+      <a href="#" class="outline-btn">View Samples</a>
+    </div>
+
+    <div class="work-image work-image--copywriting">
+      <img src="/assets/images/copywriting_image/kimbo.png" alt="Kimbo Coffee project">
+    </div>
   </article>
 
-  <article class="work-card">
-    <h3>Email Marketing Copy</h3>
-    <span class="work-meta">Personal Project</span>
-    <p>
-      Designed email sequences focused on nurturing leads and driving
-      click-through and conversion.
-    </p>
-    <a href="#" class="outline-btn">Read Sample</a>
+  <article class="work-card work-card--copywriting">
+    <div class="work-content work-content--copywriting">
+      <h3>Summit Golf Brands</h3>
+      <span class="work-meta">Copy Proofreading and Design Quality Check</span>
+      <p>
+        Proofreading for accuracy while ensuring visual and design consistency.
+      </p>
+      <a href="#" class="outline-btn">View Samples</a>
+    </div>
+
+    <div class="work-image work-image--copywriting">
+      <img src="/assets/images/copywriting_image/summit_golf_brands.png" alt="Summit Golf Brands project">
+    </div>
   </article>
 
 </section>
