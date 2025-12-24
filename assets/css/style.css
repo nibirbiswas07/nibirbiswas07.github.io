@@ -11,7 +11,7 @@
 }
 
 body {
-  background: #f6f8fb;
+  background: #f2f2f2;
   color: #222;
   overflow-x: hidden;
   /* safety against overflow */
@@ -474,7 +474,7 @@ body {
   align-items: center;
   margin-bottom: 40px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.42);
 }
 
 .project-card img {
@@ -566,7 +566,7 @@ h3 {
 
   /* Offset for fixed navbar */
   body {
-    padding-top: 64px;
+    padding-top: 44px;
   }
 
   #home {
@@ -725,6 +725,10 @@ h3 {
     scroll-margin-top: 330px;
   }
 
+  .projects {
+    padding: 60px 20px;
+  }
+
   .project-card,
   .reverse {
     flex-direction: column;
@@ -733,6 +737,13 @@ h3 {
   .project-card img,
   .project-text {
     width: 100%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) and (min-height: 1100px) {
+  .hero {
+    min-height: auto;
+    padding-bottom: 120px;
   }
 }
 
@@ -799,7 +810,7 @@ h3 {
   background: #fff;
   padding: 40px;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.401);
   margin-bottom: 40px;
 }
 
