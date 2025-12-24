@@ -38,7 +38,7 @@ title: Social Media Strategy
 
     <!-- PREVIEW 1 -->
     <div class="social-preview">
-      <span class="preview-label">Preview (Before)</span>
+      <span class="preview-label">AD 1</span>
 
       <button
         class="image-preview-btn open-modal"
@@ -53,7 +53,7 @@ title: Social Media Strategy
 
     <!-- PREVIEW 2 -->
     <div class="social-preview">
-      <span class="preview-label">Preview (After)</span>
+      <span class="preview-label">AD 2</span>
 
       <button
         class="image-preview-btn open-modal"
