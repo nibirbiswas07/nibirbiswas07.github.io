@@ -230,8 +230,49 @@ body {
   position: relative;
 }
 
+.hero-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.designation-badge {
+  background: none;
+  padding: 0 0 6px 0;
+
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #999e95;
+
+  position: relative;
+}
+
+.designation-badge::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 54%;
+  height: 3px;
+  border-radius: 2px;
+
+  background: linear-gradient(90deg, #4caf00, #9be44d);
+}
+
+
+
+@media (max-width: 900px) {
+  .hero-name {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
 /* Base floating pill */
-.float-tag {
+/* .float-tag {
   position: absolute;
   padding: 10px 18px;
   font-size: 14px;
@@ -245,10 +286,10 @@ body {
   white-space: nowrap;
 
   animation: floatY 6s ease-in-out infinite;
-}
+} */
 
 /* Soft floating motion */
-@keyframes floatY {
+/* @keyframes floatY {
   0% {
     transform: translateY(0);
   }
@@ -260,7 +301,7 @@ body {
   100% {
     transform: translateY(0);
   }
-}
+} */
 
 .hero-img img {
   width: 300px;
@@ -276,7 +317,7 @@ body {
 
 
 /* Left bottom */
-.tag-social {
+/* .tag-social {
   left: -150px;
   bottom: 20px;
   animation-delay: 0s;
@@ -286,10 +327,10 @@ body {
   right: -18px;
   top: 50%;
   transform: translateY(-120%) rotate(-15deg);
-}
+} */
 
 /* Right middle */
-.tag-copy {
+/* .tag-copy {
   right: -100px;
   top: 55%;
   animation-delay: 2s;
@@ -299,10 +340,10 @@ body {
   left: -18px;
   top: 50%;
   transform: translateY(-50%) rotate(180deg);
-}
+} */
 
 /* Top left */
-.tag-content {
+/* .tag-content {
   left: -100px;
   top: 30px;
   animation-delay: 4s;
@@ -322,6 +363,9 @@ body {
   background: #FF8C00;
   clip-path: polygon(0 0, 100% 50%, 0 100%);
 }
+ */
+
+
 
 
 
@@ -665,17 +709,17 @@ h3 {
     align-items: center;
   }
 
-  .float-tag {
+  /* .float-tag {
     position: static;
     display: block;
 
     width: 100%;
     max-width: 260px;
-    /* equal length */
+    
     text-align: center;
 
     margin-top: 18px;
-    /* 🔑 more breathing space */
+    
     padding: 12px 18px;
 
     font-size: 14px;
@@ -698,16 +742,16 @@ h3 {
       inset 0 1px 0 rgba(255, 255, 255, 0.15);
 
     animation: none;
-  }
+  } */
 
-  .tag-content {
+  /* .tag-content {
     margin-top: 60px;
-    /* 🔑 adds space from image */
+   
   }
 
   .float-tag::after {
     display: none;
-  }
+  } */
 
   /* ✅ FIXED CENTERING */
   .worked-with {

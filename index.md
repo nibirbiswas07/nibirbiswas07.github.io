@@ -7,7 +7,10 @@ layout: default
   <!-- MAIN HERO CONTENT (TEXT + IMAGE) -->
   <div class="hero-content">
     <div class="hero-text">
-      <h1>NIBIR BISWAS</h1>
+      <h1 class="hero-name">
+              NIBIR BISWAS
+        <span class="designation-badge">Brand Content Strategist</span>
+      </h1>
       <p>
         I create brand aligned content that turns attention into action.
       </p>
@@ -24,7 +27,7 @@ layout: default
   decoding="async"
   />
 
-  <div class="float-tag tag-content">
+  <!-- <div class="float-tag tag-content">
     Content Writer
   </div>
 
@@ -34,7 +37,7 @@ layout: default
 
   <div class="float-tag tag-social">
     Communication Specialist
-  </div>
+  </div> -->
 </div>
 
   </div>
